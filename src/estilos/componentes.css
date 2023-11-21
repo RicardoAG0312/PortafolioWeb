@@ -1,0 +1,84 @@
+.subcontenedor-habilidades .columna{
+    margin: 0;
+    padding: 20px 10px;
+    gap: 15px;
+    height: 100%;
+    box-shadow: 0 10px 15px 5px gray;
+    height: 600px;
+}
+.subcontenedor-habilidades .columna:hover{
+    background-color: black;
+    color: white;
+}
+.subcontenedor-habilidades i{
+    margin: 0 auto;
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.subcontenedor-habilidades h1{
+    font-size: 30px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.subcontenedor-habilidades p{
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: justify;
+}
+.contenedor-habilidades .subcontenedor-habilidades .columna div{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+.contenedor-habilidades .row .badge{
+    margin: 5px;
+    padding: 7px 10px;
+}
+/* Responsivo */
+@media screen and (max-width: 766px) {
+    .subcontenedor-habilidades i{
+        font-size: 4rem;
+    }
+    .subcontenedor-habilidades h1{
+        font-size: 35px;
+    }
+    .subcontenedor-habilidades p{
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .subcontenedor-habilidades h1{
+        font-size: 40px;
+    }
+    .subcontenedor-habilidades p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .subcontenedor-habilidades i{
+        font-size: 2.5rem;
+    }
+    .subcontenedor-habilidades h1{
+        font-size: 25px;
+    }
+    .subcontenedor-habilidades p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
