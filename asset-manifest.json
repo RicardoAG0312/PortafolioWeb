@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portafolio-react/static/css/main.5753f9db.css",
+    "main.js": "/portafolio-react/static/js/main.a023a546.js",
+    "static/media/proyecto.png": "/portafolio-react/static/media/proyecto.e2689ba51c4dc21f5502.png",
+    "static/media/certi-css.jpg": "/portafolio-react/static/media/certi-css.f36496455850d0377ff2.jpg",
+    "static/media/certi-html.jpg": "/portafolio-react/static/media/certi-html.06a780bd2446b00df217.jpg",
+    "static/media/certi-js.jpg": "/portafolio-react/static/media/certi-js.5f464af6d70301e3faba.jpg",
+    "static/media/edgar.jpeg": "/portafolio-react/static/media/edgar.1b712837e4aaf5f89cba.jpeg",
+    "static/media/bootstrap-icons.woff?": "/portafolio-react/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/bootstrap-icons.woff2?": "/portafolio-react/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
+    "static/media/jhony.jpeg": "/portafolio-react/static/media/jhony.ce75a234b9a7660eebe6.jpeg",
+    "static/media/george.jpeg": "/portafolio-react/static/media/george.79cbba92194564a407ee.jpeg",
+    "static/media/computadora.png": "/portafolio-react/static/media/computadora.7735858a4f2f9195c32e.png",
+    "static/media/jesibeth.jpeg": "/portafolio-react/static/media/jesibeth.f5653bc802694d4b774d.jpeg",
+    "static/media/beatriz.jpeg": "/portafolio-react/static/media/beatriz.933c5350297d2ecdf19d.jpeg",
+    "static/media/orlando.jpeg": "/portafolio-react/static/media/orlando.3a3780c706424c0f87e9.jpeg",
+    "static/media/samir.jpeg": "/portafolio-react/static/media/samir.3ceed6ff48edafedf700.jpeg",
+    "static/media/desarrollador-ejemplo3.svg": "/portafolio-react/static/media/desarrollador-ejemplo3.bb158f0bc0ed4ced87fbc79f1a8743fa.svg",
+    "static/media/html.svg": "/portafolio-react/static/media/html.92aed6b6c66742ebe8f686f5e126c6df.svg",
+    "static/media/logo.svg": "/portafolio-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/js.svg": "/portafolio-react/static/media/js.b3f292f601f8217f47b48bb02a27fc7b.svg",
+    "static/media/css.svg": "/portafolio-react/static/media/css.123c475b58b3543a572103fbf755cad0.svg",
+    "index.html": "/portafolio-react/index.html",
+    "main.5753f9db.css.map": "/portafolio-react/static/css/main.5753f9db.css.map",
+    "main.a023a546.js.map": "/portafolio-react/static/js/main.a023a546.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5753f9db.css",
+    "static/js/main.a023a546.js"
+  ]
+}
