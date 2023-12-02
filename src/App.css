@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Readex+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Koulen&family=Readex+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
-*, body, html{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -47,6 +52,7 @@
     align-items: center;
     flex-direction: column;
     gap: 30px;
+    padding: 0;
 }
 .contenedor-saludo img{
     height: 50%;
@@ -350,15 +356,26 @@ footer{
 }
 /* Adaptable (Responsivo) */
 @media screen and (max-width: 766px) {
+    /* Barra de navegacion */
     .navbar-brand{
         display: none;
+        padding: 0;
+        margin: 0;
     }
-    .contenedor-saludo img{
-        height: 45%;
+    .navbar-collapse{
+        color: white;
+        padding: 10px 0px;
+        margin: 0;
+        background-color: white;
     }
+    .barra-nav a {
+        color: black;
+    }
+    /* Imagen Computadora */
     .contenedor-computadora img{
         height: 300px;
     }
+    /* Seccion Historia */
     .contenedor-historia {
         height: 800px;
         margin: 0;
@@ -367,8 +384,10 @@ footer{
         font-size: 30px;
     }
     .contenedor-historia .row .imagen img{
+        margin-top: 50px;
         height: 300px;
     }
+    /* Proyectos */
     .contenedor-principal-proyectos h2 {
         font-size: 3rem;
     }
@@ -376,6 +395,7 @@ footer{
         font-size: 1.1rem;
         line-height: 30px;
     }
+    /* Certificados */
     .contenedor-certificados {
         max-height: 900px;
         color: white;
@@ -399,6 +419,7 @@ footer{
     .contenedor-certificados .logos img{
         width: 30%;
     }
+    /* Testimonios */
     .testimonios{
         padding: 30px;
     }
@@ -420,8 +441,6 @@ footer{
         font-size: 1rem;
     }
 }
-
-
 @media screen and (max-width: 600px) {
     .navbar-brand{
         display: none;
@@ -471,8 +490,7 @@ footer{
         font-size: 1rem;
     }
 }
-
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 430px) {
     .navbar-brand{
         display: none;
     }
@@ -507,7 +525,6 @@ footer{
         font-size: 1rem;
         line-height: 30px;
     }
-
     .testimonios{
         padding: 20px;
     }
@@ -536,7 +553,7 @@ footer{
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-}
+    }
     .testimonio-texto{
         max-width: 70%;
         max-height: 70%;
@@ -547,7 +564,7 @@ footer{
     .testimonio-info .cliente{
         font-size: 1.3rem;
     }
-
 }
+
 
 

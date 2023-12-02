@@ -63,9 +63,9 @@
         font-size: 65px;
     }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 430px) {
     .overlay p{
-        font-size: 20px;
+        font-size: 25px;
     }
     .overlay .iconos-contenedor{
         display: flex;
@@ -73,7 +73,7 @@
         align-items: center;
     }
     .overlay i{
-        font-size: 50px;
+        font-size: 60px;
     }
 }
 
