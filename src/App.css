@@ -354,6 +354,28 @@ footer{
     color: #aeaeae;
     padding: 20px;
 }
+/* Mensajito */
+.toast {
+    position: fixed;
+    top: 83%;
+    right: 10px;
+}
+.toast .toast-body {
+    text-align: center;
+}
+.toast .toast-header {
+    background-color: #7ADE2A;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.toast .toast-header a {
+    text-decoration: none;
+    color: black;
+}
 /* Adaptable (Responsivo) */
 @media screen and (max-width: 766px) {
     /* Barra de navegacion */

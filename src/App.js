@@ -12,13 +12,29 @@ import Computadora from "./imagenes/computadora.png";
 import Habilidad from "./componentes/habilidades.jsx";
 import Proyecto from './componentes/proyectos.jsx';
 import Testimonio from './componentes/testimonios.jsx';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'jquery';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-
+import * as Bootstrap from 'bootstrap';
 
 function App() {
+    useEffect(() => {
+        var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+        var toastList = toastElList.map(function (toastEl) {
+            return new Bootstrap.Toast(toastEl)
+        })
+        toastList.forEach(toast => toast.show()); 
+        window.addEventListener("scroll", function() {
+            var footer = document.querySelector("footer"); 
+            var position = footer.getBoundingClientRect();
+            if(position.top < window.innerHeight && position.bottom >= 0) {
+                document.querySelector(".toast").style.display = "none"; 
+            } else {
+                document.querySelector(".toast").style.display = "block";
+            }
+        });
+    }, []);
     const misTestimonios = [
         <Testimonio
         nombreimagen = "beatriz"
@@ -73,7 +89,6 @@ function App() {
     const cambiarCertificadoJS = () => {
         setCertificado(CertiJS);
     }
-    
 return (
 <div className="App">
     <nav className="navbar navbar-expand-md bg-body-tertiary" id="navbar">
@@ -129,7 +144,7 @@ return (
                 claseIcono = "bi bi-laptop"
                 nombre = "Desarrollo Web"
                 texto = "He adquirido habilidades en lenguajes de programación especializados en desarrollo web a través de plataformas de aprendizaje en línea como Udemy, Youtube y Edutin. Mi dominio de estos lenguajes me permite crear sitios web interactivos y atractivos. Asimismo, sitios webs responsivos y dinámicos."
-                children={["HTML", "CSS", "JavaScript", "React", "BootStrp", "Angular"]}
+                children={["HTML", "CSS", "JavaScript", "React", "BootStrap", "Angular"]}
                 />
                 <Habilidad
                 claseIcono = "bi bi-lightbulb"
@@ -267,7 +282,21 @@ return (
             Creado por Ricardo Goicochea (2023) &#169;
         </div>
     </footer>
+    <div role="alert" aria-live="assertive" aria-atomic="true" className="toast" data-bs-autohide="false">
+        <div className="toast-body">
+            ¿Dudas o consultas? No dudes en contactarme
+        </div>
+        <div className="toast-header">
+            <a href="https://wa.me/51924232418" target="_blank" rel="noopener noreferrer">
+                <i className="bi bi-whatsapp me-1"></i>
+                <strong className="me-auto"> WhatsApp </strong>
+            </a>
+        </div>
+    </div>
 </div>
+
+
+
 );
 }
 
