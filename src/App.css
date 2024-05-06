@@ -354,6 +354,13 @@ footer{
     color: #aeaeae;
     padding: 20px;
 }
+.item a:hover .icon {
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+}
 /* Mensajito */
 .toast {
     position: fixed;

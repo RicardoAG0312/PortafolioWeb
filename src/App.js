@@ -205,7 +205,7 @@ return (
             </button>
         </a>
     </section>
-    <section className='container-fluid contenedor-certificados'>
+    <section id="Certificados" className='container-fluid contenedor-certificados'>
         <header> Certificados </header>
         <div className='container'>
             <div className='row'>
@@ -261,25 +261,25 @@ return (
     <footer className="d-flex flex-column align-items-center justify-content-center" id='Contacto'>
         <img className="footer-logo" src={LogoBarra} alt="Logo de icono blanco"/>
         <p className="footer-texto text-center"> Aprendo todos los días </p>
-        <div className="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <div className="item iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
             <a href="https://twitter.com/RicardoG0312" target="_blank" rel="noopener noreferrer"> 
-                <i className="bi bi-twitter"></i>
+                <i className="icon fa-brands bi bi-twitter"></i>
             </a>    
             <a href="https://github.com/RicardoAG0312?tab=repositories" target="_blank" rel="noopener noreferrer"> 
-                <i className="bi bi-github"></i>
+                <i className="icon fa-brands bi bi-github"></i>
             </a>
             <a href="https://www.linkedin.com/in/ricardo-goicochea-oyarce-535103240/" target="_blank" rel="noopener noreferrer"> 
-                <i className="bi bi-linkedin"></i>
+                <i className="icon fa-brands bi bi-linkedin"></i>
             </a>
-            <a href="https://wa.me/51924232418" target="_blank" rel="noopener noreferrer"> 
-                <i className="bi bi-whatsapp"></i>
+            <a href="https://wa.me/51981012139" target="_blank" rel="noopener noreferrer"> 
+                <i className="icon fa-brands bi bi-whatsapp"></i>
             </a>
             <a href="mailto: ricardo41216383@gmail.com" target="_blank" rel="noopener noreferrer"> 
-                <i className="bi bi-envelope-at-fill"></i>
+                <i className="icon fa-brands bi bi-envelope-at-fill"></i>
             </a>
         </div>
         <div className="derechos-de-autor">
-            Creado por Ricardo Goicochea (2023) &#169;
+            Creado por Ricardo Goicochea (2024) &#169;
         </div>
     </footer>
     <div role="alert" aria-live="assertive" aria-atomic="true" className="toast" data-bs-autohide="false">
@@ -287,16 +287,13 @@ return (
             ¿Dudas o consultas? No dudes en contactarme
         </div>
         <div className="toast-header">
-            <a href="https://wa.me/51924232418" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/51981012139" target="_blank" rel="noopener noreferrer">
                 <i className="bi bi-whatsapp me-1"></i>
                 <strong className="me-auto"> WhatsApp </strong>
             </a>
         </div>
     </div>
 </div>
-
-
-
 );
 }
 
