@@ -133,7 +133,13 @@ return (
             </div>
             <div className='col-12 col-md-8 texto'> 
                 <h2> Conoce a Ricardo Goicochea </h2>
-                <p> Soy estudiante de Ingeniería de Sistemas de la Universidad Tecnológica del Perú. Me considero una persona súper directa, sencilla y empática. Soy autodicta y para nada conformista. Me gusta aprender a diario y trato de aprovechar mi tiempo libre tomando cursos en línea o creando nuevos proyectos. Me gusta actualizarme y conocer las nuevas tendencias tecnológicas. Como pasa tiempos, muy aparte de tomar cursos, me gusta caminar por la playa y poder oír la naturaleza. Por otro lado, ver películas y series de acción, romance entre otras cosas. También, oír música y pasar demasiado tiempo con mi familia. Me gusta aprender día a día porque sé que la tecnológia avanza muy rápido y quiero estar actualizado. </p>
+                <p> 
+                    Soy estudiante de Ingeniería de Sistemas en la Universidad Tecnológica del Perú, apasionado por resolver problemas a través de la tecnología y en constante búsqueda de aprendizaje. Creo firmemente que la clave del éxito está en nunca conformarse, y esa mentalidad me impulsa a explorar, aprender y crecer cada día.
+
+                    Me encanta transformar ideas en proyectos reales, ya sea desarrollando sitios web dinámicos o experimentando con nuevas herramientas tecnológicas. En mi tiempo libre, disfruto caminar por la playa, conectarme con la naturaleza, y compartir momentos con mi familia. También encuentro inspiración en el cine, la música y, por supuesto, en seguir aprendiendo sobre las tendencias que están moldeando el futuro tecnológico.
+
+                    Mi objetivo es convertirme en un profesional que no solo aporte soluciones innovadoras, sino que también inspire a otros a crecer. Porque en un mundo que avanza tan rápido, mantenerse actualizado no es una opción, ¡es una pasión!
+                </p>
             </div>
         </div>
     </section>
@@ -144,19 +150,19 @@ return (
                 claseIcono = "bi bi-laptop"
                 nombre = "Desarrollo Web"
                 texto = "He adquirido habilidades en lenguajes de programación especializados en desarrollo web a través de plataformas de aprendizaje en línea como Udemy, Youtube y Edutin. Mi dominio de estos lenguajes me permite crear sitios web interactivos y atractivos. Asimismo, sitios webs responsivos y dinámicos."
-                children={["HTML", "CSS", "JavaScript", "React", "BootStrap", "Angular"]}
+                children={["HTML", "CSS", "JavaScript", "React", "BootStrap", "Angular", "Node", "Git", "GitHub"]}
                 />
                 <Habilidad
                 claseIcono = "bi bi-lightbulb"
                 nombre = "Lenguajes"
                 texto = "He adquirido competencias en una variedad de lenguajes de programación, así como en la realización de consultas y el uso de software para la gestión y recopilación de datos. Estos conocimientos los he obtenido a través de plataformas digitales como Udemy y también durante mi formación universitaria."
-                children={["Java", "C", "C++", "MySQL", "Power BI", "Excel"]}
+                children={["Java", "C", "C++", "Python","MySQL", "SQL Server","Power BI", "Excel"]}
                 />  
                 <Habilidad
                 claseIcono = "bi bi-book"
                 nombre = "Estudiante"
                 texto = "A lo largo de mi formación académica, he adquirido una serie de habilidades que aplico diariamente en la realización de proyectos grupales. Mi capacidad para trabajar en equipo y contribuir con ideas innovadoras ha sido una constante en mi desempeño académico y profesional. De igual modo, estar actualizado de las redes."
-                children={["Liderazgo", "Responsabilidad", "puntualidad", "Solidaridad"]}
+                children={["Liderazgo", "Responsabilidad", "Puntualidad", "Compromiso", "Lealtad", "Empatía"]}
                 /> 
             </div>
         </div>
@@ -167,34 +173,34 @@ return (
         <div className='container contenedor-proyecto'>
             <div className='row'>
                 <Proyecto
-                titulo = "Juego de Preguntas"
-                linkGit = "https://github.com/RicardoAG0312/JuegoPreguntas"
-                linkApp = "https://ricardoag0312.github.io/JuegoPreguntas/"
+                titulo = "Inkanet Perú"
+                linkGit = "https://github.com/RicardoAG0312/InkanetPeruWeb"
+                linkApp = "https://inkanetperu.com/inicio"
                 />
                 <Proyecto
-                titulo = "Calculadora"
-                linkGit = "https://github.com/RicardoAG0312/react-calculadora"
-                linkApp = "https://ricardoag0312.github.io/react-calculadora/"
+                titulo = "Flammas Web"
+                linkGit = "https://github.com/RicardoAG0312/FlammasWeb"
+                linkApp = "https://www.flammas.com/inicio"
                 />
                 <Proyecto
-                titulo = "Presupuesto Web"
-                linkGit = "https://github.com/RicardoAG0312/PresupuestoWeb"
-                linkApp = "https://ricardoag0312.github.io/PresupuestoWeb/"
+                titulo = "Gamma Web"
+                linkGit = "https://github.com/RicardoAG0312/GammaWeb"
+                linkApp = "https://github.com/RicardoAG0312/GammaWeb"
                 />
                 <Proyecto
-                titulo = "Portafolio"
-                linkGit = "https://github.com/RicardoAG0312/portafolio-react"
-                linkApp = "https://ricardoag0312.github.io/portafolio-react/"
+                titulo = "Salud Web"
+                linkGit = "https://github.com/RicardoAG0312/SistemaSalud"
+                linkApp = "https://github.com/RicardoAG0312/SistemaSalud"
                 />
                 <Proyecto
-                titulo = "Contador"
-                linkGit = "https://github.com/RicardoAG0312/contadorclics"
-                linkApp = "https://ricardoag0312.github.io/contadorclics/"
+                titulo = "Dinamica Web"
+                linkGit = "https://github.com/RicardoAG0312/RedDinamicaWeb"
+                linkApp = "https://reddinamica.com/inicio"
                 />
                 <Proyecto
-                titulo = "Juego De Bombas"
-                linkGit = "https://github.com/RicardoAG0312/JuegoBombas"
-                linkApp = "https://ricardoag0312.github.io/JuegoBombas/"
+                titulo = "Portafolio Web"
+                linkGit = "https://github.com/RicardoAG0312/PortafolioWeb"
+                linkApp = "https://github.com/RicardoAG0312/PortafolioWeb"
                 />
             </div>
         </div>
